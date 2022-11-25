@@ -1,0 +1,9 @@
+<Context>
+<Resource name="jdbc/imagetest"
+auth="Container" type="javax.sql.DataSource"
+maxActive="30" maxIdle="6" maxTimeOut="10000"
+username="root" password="root"
+driverClassName="com.mysql.cj.jdbc.Driver"
+url="jdbc:mysql://localhost:3307/imagetestdb"
+/>
+</Context>
